@@ -1,0 +1,23 @@
+name: LeSci
+options:
+  deploymentTarget:
+    iOS: "15.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: 5.9
+    IPHONEOS_DEPLOYMENT_TARGET: "15.0"
+targets:
+  LeSci:
+    type: application
+    platform: iOS
+    sources:
+      - LeSci
+    info:
+      path: LeSci/LeSci-Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.joysync.lesci
+        PRODUCT_NAME: LeSci
+        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 1
